@@ -117,6 +117,7 @@ if($_GET['section']){
                 $StrDB->UpdateData("tb_data0","
                     PID='".$_POST['txt-pid']."' ,
                         FNAME='".$_POST['txt-name']."' ,
+                             LNAME='".$_POST['txt-lname']."' ,
                             DOB_D='".$_POST['txt-dbirth']."' ,
                                 DOB_M='".$_POST['txt-mbirth']."' ,
                                     DOB_Y='".$_POST['txt-ybirth']."' ,
