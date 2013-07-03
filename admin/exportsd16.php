@@ -98,9 +98,9 @@ while ($result=$StrDB->FetchData($re)) {
     $objPHPExcel->getActiveSheet()->getStyle('L'.$row2)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_BOTTOM);
     $objPHPExcel->getActiveSheet()->getStyle('M'.$row2)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_BOTTOM);
     
-    
-    $objPHPExcel->getActiveSheet()->getRowDimension($row2)->setRowHeight('30');
-     $objPHPExcel->getActiveSheet()->getRowDimension($row3)->setRowHeight('27');
+   /* $objPHPExcel->getActiveSheet()->getRowDimension($row1)->setRowHeight('27');
+    $objPHPExcel->getActiveSheet()->getRowDimension($row2)->setRowHeight('26');*/
+     $objPHPExcel->getActiveSheet()->getRowDimension($row3)->setRowHeight('32');
  $objPHPExcel->getActiveSheet()->setBreak('A' . $break, PHPExcel_Worksheet::BREAK_ROW);
 
     $row1 +=4;
